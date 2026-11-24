@@ -142,6 +142,10 @@ fun friendlyError(e: Exception): String {
         "password is invalid" in m || "INVALID_LOGIN_CREDENTIALS" in m || "credential" in m ->
             "Email or password tappu."
         "badly formatted" in m -> "Email correct ga ledu."
+        "PERMISSION_DENIED" in m ->
+            "Firebase lo Firestore Rules publish avvaledu. Rules tab lo firestore.rules paste chesi Publish cheyyandi."
+        "NOT_FOUND" in m || "does not exist" in m ->
+            "Firestore Database inka create avvaledu. Firebase console lo Create database cheyyandi."
         "network" in m.lowercase() -> "Internet ledu. Malli try cheyyandi."
         else -> m.ifBlank { "Something went wrong" }
     }
