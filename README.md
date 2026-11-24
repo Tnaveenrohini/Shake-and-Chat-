@@ -3,7 +3,7 @@
 Phone ni shake chesthe — same language, same interests unna oka random person tho chat connect avutundi. Made in India 🇮🇳
 
 ## Features (v0.1)
-- 📧 Email + password login (Double Bubble account tho kuda login avvochu)
+- 📧 Email + password login 
 - 👤 Profile: nickname, age (18+ only), gender, chat language, interests (1–5)
 - 🫨 Shake to match — accelerometer, leda button tap
 - 🎯 Matching: same language first, ekkuva common interests unna vaallu mundu
@@ -12,11 +12,11 @@ Phone ni shake chesthe — same language, same interests unna oka random person 
 - 🛡️ Safety: bad-word filter, strangers ki phone numbers / @IDs / links hide, Block, Report (report = auto block)
 
 ## Setup
-1. Firebase console → **flikkchat** project → Add app → Android → package `com.flikk.shakechat`
-2. `google-services.json` download chesi `app/` folder lo pettandi
+Firebase project: **shake-and-chat-c45c8** (`app/google-services.json` already undi)
+1. Authentication → Sign-in method → **Email/Password** enable
+2. Firestore Database → Create database (Standard, asia-south1 Mumbai)
 3. Firestore → **Rules** → ee repo lo unna `firestore.rules` motham copy-paste → Publish
-   (Double Bubble rules kuda andulo unnayi, emi povu)
 4. Push chesthe GitHub Actions APK build chesi **Releases** lo pedutundi
 
 ## Firestore collections
-`sc_users`, `sc_queue`, `sc_rooms/{id}/msgs`, `sc_reports` — Double Bubble data tho kalavavu.
+`sc_users`, `sc_queue`, `sc_rooms/{id}/msgs`, `sc_reports`

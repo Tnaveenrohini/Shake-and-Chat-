@@ -11,7 +11,7 @@ import kotlinx.coroutines.tasks.await
 import kotlinx.coroutines.withTimeoutOrNull
 
 /**
- * Firestore collections (Double Bubble tho clash avvakunda "sc_" prefix):
+ * Firestore collections ("sc_" prefix):
  *  sc_users/{uid}                 profile
  *  sc_users/{uid}/friends/{other} friends list
  *  sc_queue/{uid}                 shake chesi wait chestunna vaallu

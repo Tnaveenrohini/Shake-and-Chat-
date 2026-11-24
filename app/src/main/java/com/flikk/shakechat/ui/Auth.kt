@@ -132,11 +132,6 @@ fun LoginScreen(onDone: () -> Unit) {
                 }
             }) { Text("Forgot password?", color = C.dim) }
         }
-        Spacer(Modifier.height(24.dp))
-        Text(
-            "Double Bubble account unte, adhe email tho login avvochu.",
-            color = C.dim, fontSize = 12.sp, textAlign = TextAlign.Center,
-        )
     }
 }
 

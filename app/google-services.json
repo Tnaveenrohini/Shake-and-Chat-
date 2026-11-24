@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "634355029245",
+    "project_id": "shake-and-chat-c45c8",
+    "storage_bucket": "shake-and-chat-c45c8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634355029245:android:ede58a4b34353ea4eb1a94",
+        "android_client_info": {
+          "package_name": "com.flikk.shakechat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMVgIijQktjwG8qDiKNZS7AdHPQ5KR5T0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
